@@ -74,7 +74,7 @@
         <origin.url>https://www.nlm.nih.gov/healthit/snomedct/us_edition.html</origin.url>
         <origin.namespace>3094dbd1-60cf-44a6-92e3-0bb32ca4d3de</origin.namespace>
 
-        <tinkar-starter-data.version>1.3.0</tinkar-starter-data.version>
+        <tinkar-starter-data.version>1.6.0</tinkar-starter-data.version>
         <reasoner-type>ElkSnomedReasoner</reasoner-type>
         <reinferAllHierarchy>false</reinferAllHierarchy>
     </properties>
