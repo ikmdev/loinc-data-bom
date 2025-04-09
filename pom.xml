@@ -73,7 +73,7 @@
 
         <packager.name>IKM Dev</packager.name>
         <origin.url>https://www.nlm.nih.gov/healthit/snomedct/us_edition.html</origin.url>
-        <origin.namespace>3094dbd1-60cf-44a6-92e3-0bb32ca4d3de</origin.namespace>
+        <origin.namespace>7b880c4c-8e54-5625-863c-c8504fa78243</origin.namespace>
 
         <tinkar-starter-data.version>1.9.0</tinkar-starter-data.version>
         <reasoner-type>ElkSnomedReasoner</reasoner-type>
