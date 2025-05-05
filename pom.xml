@@ -55,7 +55,7 @@
         <java.version>23</java.version>
         <lucene.version>9.12.1</lucene.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <tinkar-core.version>1.94.0</tinkar-core.version>
+        <tinkar-core.version>1.98.0</tinkar-core.version>
         <tinkar-schema.version>1.38.0</tinkar-schema.version>
         <tinkar-transformer-api.version>1.7.0</tinkar-transformer-api.version>
         <log4j.version>3.0.0-alpha1</log4j.version>
@@ -75,8 +75,14 @@
         <origin.url>https://www.nlm.nih.gov/healthit/snomedct/us_edition.html</origin.url>
         <origin.namespace>7b880c4c-8e54-5625-863c-c8504fa78243</origin.namespace>
 
-        <tinkar-starter-data.version>1.9.0</tinkar-starter-data.version>
+        <!-- starter data -->
+        <tinkar-starter-data.groupId>dev.ikm.data.tinkar</tinkar-starter-data.groupId>
+        <tinkar-starter-data.artifactId>tinkar-starter-data</tinkar-starter-data.artifactId>
+        <tinkar-starter-data.classifier>unreasoned-sa</tinkar-starter-data.classifier>
+        <tinkar-starter-data.version>1.2.0</tinkar-starter-data.version>
+        <!-- reasoner options (ElkOwlReasoner, ElkSnomedReasoner, HybridReasoner)-->
         <reasoner-type>ElkSnomedReasoner</reasoner-type>
+
     </properties>
 
     <build>
@@ -94,8 +100,9 @@
     <dependencyManagement>
         <dependencies>
             <dependency>
-                <groupId>dev.ikm.tinkar</groupId>
-                <artifactId>tinkar-data</artifactId>
+                <groupId>${tinkar-starter-data.groupId}</groupId>
+                <artifactId>${tinkar-starter-data.artifactId}</artifactId>
+                <classifier>${tinkar-starter-data.classifier}</classifier>
                 <version>${tinkar-starter-data.version}</version>
             </dependency>
 
