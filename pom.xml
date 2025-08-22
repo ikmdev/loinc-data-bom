@@ -12,7 +12,7 @@
 
     <groupId>dev.ikm.tinkar</groupId>
     <artifactId>loinc-data-bom</artifactId>
-    <version>1.12.0-SNAPSHOT</version>
+    <version>1.13.0-SNAPSHOT</version>
 
     <name>Loinc Data BOM</name>
     <description>Loinc Data Bill Of Materials</description>
@@ -55,7 +55,7 @@
 
         <lucene.version>9.12.1</lucene.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <tinkar-core.version>1.112.0</tinkar-core.version>
+        <tinkar-core.version>1.121.0</tinkar-core.version>
         <tinkar-schema.version>1.42.0</tinkar-schema.version>
         <tinkar-transformer-api.version>1.7.0</tinkar-transformer-api.version>
         <log4j.version>3.0.0-alpha1</log4j.version>
@@ -79,7 +79,7 @@
         <tinkar-starter-data.groupId>dev.ikm.data.tinkar</tinkar-starter-data.groupId>
         <tinkar-starter-data.artifactId>tinkar-starter-data</tinkar-starter-data.artifactId>
         <tinkar-starter-data.classifier>unreasoned-pb</tinkar-starter-data.classifier>
-        <tinkar-starter-data.version>20250807</tinkar-starter-data.version>
+        <tinkar-starter-data.version>20250813</tinkar-starter-data.version>
         <!-- reasoner options (ElkOwlReasoner, ElkSnomedReasoner, HybridReasoner)-->
         <reasoner-type>ElkSnomedReasoner</reasoner-type>
 
